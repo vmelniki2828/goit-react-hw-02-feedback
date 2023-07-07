@@ -1,16 +1,18 @@
 import PropTypes from 'prop-types'
+import styles from './Section.module.css'
 
 const Section = ({title, children}) => {
     return (
-        <section>
-            <h2>{title}</h2>
+        <section className={styles.wigetSection}>
+            <h2 className={styles.title}>{title}</h2>
             {children}
         </section>
     )
 }
 
 Section.propTypes = {
-    text: PropTypes.string
+    title: PropTypes.string.isRequired,
+    children: PropTypes.element.isRequired
 }
 
 export default Section;

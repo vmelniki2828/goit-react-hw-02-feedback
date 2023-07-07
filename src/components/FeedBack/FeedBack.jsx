@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import styles from './FeedBack.module.css'
 
 const FeedBack = ({ options, onLeaveFeedback }) => {
   return (
@@ -6,6 +7,7 @@ const FeedBack = ({ options, onLeaveFeedback }) => {
       {options.map(option => {
         return (
             <button
+              className={styles.feedBackBtn}
               key={option}
               name={option}
               type='button'
@@ -20,7 +22,8 @@ const FeedBack = ({ options, onLeaveFeedback }) => {
 };
 
 FeedBack.propTypes = {
-  text: PropTypes.string,
+  options: PropTypes.string.isRequired,
+  onLeaveFeedback : PropTypes.func.isRequired,
 };
 
 export default FeedBack;

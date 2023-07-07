@@ -2,6 +2,7 @@ import React from 'react';
 import Section from './Section/Section';
 import Statistic from './Statistic/Statistic';
 import FeedBack from './FeedBack/FeedBack';
+import Notification from './Notification/Notification';
 
 export class App extends React.Component {
   state = {
@@ -45,7 +46,7 @@ export class App extends React.Component {
               posPercentage={this.countPosFeedbackPercentage()}
             />
           ) : (
-            <h2>There is no feedback</h2>
+            <Notification message="There is no feedback" />
           )}
         </Section>
       </>
