@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "//vmelniki2828.github.io/goit-react-hw-02-feedback/static/css/main.7acaea2f.css",
+    "main.js": "//vmelniki2828.github.io/goit-react-hw-02-feedback/static/js/main.c45c428e.js",
+    "index.html": "//vmelniki2828.github.io/goit-react-hw-02-feedback/index.html",
+    "main.7acaea2f.css.map": "//vmelniki2828.github.io/goit-react-hw-02-feedback/static/css/main.7acaea2f.css.map",
+    "main.c45c428e.js.map": "//vmelniki2828.github.io/goit-react-hw-02-feedback/static/js/main.c45c428e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.c45c428e.js"
+  ]
+}
