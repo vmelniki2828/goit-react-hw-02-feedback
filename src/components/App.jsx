@@ -30,13 +30,13 @@ export class App extends React.Component {
   render() {
     return (
       <>
-        <Section title={'Please leave feedback'}>
+        <Section title='Please leave feedback'>
           <FeedBack
             options={Object.keys(this.state)}
             onLeaveFeedback={this.onLeaveFeedback}
           />
         </Section>
-        <Section title={'Statistic'}>
+        <Section title='Statistic'>
           {this.countTotalFeedback() ? (
             <Statistic
               good={this.state.good}
