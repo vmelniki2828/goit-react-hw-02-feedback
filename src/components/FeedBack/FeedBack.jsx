@@ -22,7 +22,7 @@ const FeedBack = ({ options, onLeaveFeedback }) => {
 };
 
 FeedBack.propTypes = {
-  options: PropTypes.string.isRequired,
+  options: PropTypes.array.isRequired,
   onLeaveFeedback : PropTypes.func.isRequired,
 };
 
